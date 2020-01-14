@@ -40,7 +40,15 @@ vim .env
 
 填写完毕后，使用 
 
-```bash
+```
+  curl https://raw.githubusercontent.com/creationix/nvm/v0.13.1/install.sh  | bash
+  source ~/.bash_profile
+  nvm
+  nvm install v13.6.0
+  nvm use 13.6.0
+
+
+bash
 npm run start
 ```
 
